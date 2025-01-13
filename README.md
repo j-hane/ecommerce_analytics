@@ -1,4 +1,4 @@
-# ecommerce_analytics
+# ecommerce-analytics-dashboard
 PostgreSQL project for analyzing e-commerce data
 
 E-commerce Analytics Dashboard 
