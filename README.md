@@ -1,17 +1,17 @@
 # ecommerce-analytics-dashboard
 This project showcases a PostgreSQL-based database for an e-commerce platform. It includes a well-designed schema, sample data, and advanced queries to analyze customer behavior, product popularity, and sales trends.
 
-##Features
+## Features
 1. Database Schema: Includes tables for customers, products, orders, order items, categories, and reviews.
 2. Sample Data: Pre-populated data to simulate a functioning e-commerce platform.
 3. Advanced Queries: Demonstrates insights like top customers, monthly revenue, and product ratings.
 
-##Files
+## Files
 -ecommerce_schema.sql: Contains the SQL script to create the database schema.
 -ecommerce_sample_data.sql: Populates the database with sample data.
 -ecommerce_queries.sql: Includes advanced queries for data analysis.
 
-##Setup Instructions
+## Setup Instructions
 1. Install PostgreSQL on your system if not already installed.
 2. Create a new database:
 
@@ -30,7 +30,7 @@ psql -U your_username -d ecommerce_db -f ecommerce_sample_data.sql
 
 	5.	Run the queries from ecommerce_queries.sql to analyze the data.
 
-##Example Queries
+## Example Queries
 
 Here are some insights you can derive using the provided queries:
 1. Top 3 customers by spending.
