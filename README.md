@@ -1,8 +1,5 @@
 # ecommerce-analytics-dashboard
 PostgreSQL project for analyzing e-commerce data
-
-E-commerce Analytics Dashboard 
-
 Project Overview
 
 This project showcases a PostgreSQL-based database for an e-commerce platform. It includes a well-designed schema, sample data, and advanced queries to analyze customer behavior, product popularity, and sales trends.
