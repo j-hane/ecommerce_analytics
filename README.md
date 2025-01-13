@@ -15,20 +15,17 @@ This project showcases a PostgreSQL-based database for an e-commerce platform. I
 1. Install PostgreSQL on your system if not already installed.
 2. Create a new database:
 
-CREATE DATABASE ecommerce_db;
+		CREATE DATABASE ecommerce_db;
 
+3. Import the schema:
 
-	3.	Import the schema:
+		psql -U your_username -d ecommerce_db -f ecommerce_schema.sql
 
-psql -U your_username -d ecommerce_db -f ecommerce_schema.sql
+4. Populate the database with sample data:
 
+		psql -U your_username -d ecommerce_db -f ecommerce_sample_data.sql
 
-	4.	Populate the database with sample data:
-
-psql -U your_username -d ecommerce_db -f ecommerce_sample_data.sql
-
-
-	5.	Run the queries from ecommerce_queries.sql to analyze the data.
+5. Run the queries from ecommerce_queries.sql to analyze the data.
 
 ## Example Queries
 
